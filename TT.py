@@ -37,16 +37,6 @@ print csecret
 print a_token
 print a_secret
 
-
-##
-##ckey = 'vgncvkeqd8fLo0K64HCl2kOnV'
-##csecret = '6J9S2yyX01zT5O1cYw3CTcjgTnTHdImhtfeWMXbomgjYCpaizk'
-##a_token = '146477450-EwAJu8YkY0Ry9awihuP83oZyAwANzdLpvr18RuAT'
-##a_secret = 'zLGb6OmYxelNQulfvM2kZItvp2VhLDiAqwhBDXQaL4fAx'
-##TEMPIMGPATH = "/home/poochi/APP_tweetynews/pics"
-##TEMPDATABASE = "/home/poochi/APP_tweetynews/tweetNews.db"
-
-
 auth = OAuthHandler(ckey,csecret);
 auth.set_access_token(a_token,a_secret);
 api = API(auth);
