@@ -6,6 +6,8 @@
 This is a simple project to explore twitter api's using tweepy.
 The aim of this project is to provide important news tweets from reliable handles to your Ubuntu PC (*nix actually).
 
+![alt tag](https://raw.github.com/poochi/TwitterNews/master/pics/example.png)
+
 TODO: Write a project description
 Currently, the app is designed to take keys for authentification ,full-permision folder and twitter handles from an app.cfg file
 
