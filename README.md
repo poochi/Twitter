@@ -1,7 +1,8 @@
 
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
+# TwitterInformer
+
 This is a simple project to explore twitter api's using tweepy.
 The aim of this project is to provide important news tweets from reliable handles to your Ubuntu PC (*nix actually).
 
