@@ -3,22 +3,23 @@
   <content><![CDATA[
 # TwitterInformer
 
-This is a simple project to explore twitter api's using tweepy.
-The aim of this project is to provide important news tweets from reliable handles to your Ubuntu PC (*nix actually).
+This is a simple project to explore twitter's api using tweepy.
+The aim of this project is to provide important news tweets from reliable handles to your Ubuntu PC in a convinient manner.
 
 ![alt tag](https://raw.github.com/poochi/TwitterNews/master/pics/example.png)
 
-TODO: Write a project description
-Currently, the app is designed to take keys for authentification ,full-permision folder and twitter handles from an app.cfg file
+Currently, the app uses information from app.cfg (like authentication key, full-permision folder and reliable news source handles) to fetch and display information via ubuntu's notify.
 
 ## Installation
 Set the config parameters correctly
 Just run this python file from command line. Ensure to set the DISPLAY environment variable to  0.0 
 
-
 ## Usage
 
 TODO: Write usage instructions
+
+simply cron it even hr :) 
+* */1 * * * DISPLAY=:0.0 /home/poochi/App_TwitterNews/TwitterNews.py 1>/home/poochi/App_TwitterNews/log1 2>/home/poochi/App_TwitterNews/log2
 
 ## Contributing
 
